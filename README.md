@@ -36,6 +36,17 @@ export class BookService {
 }
 ```
 
+## How it work
+
+1. Call a function with `@CacheObservable()` decorator;
+2. The Decorator lib check, if a storage have the observable entry then return it;
+3. If the storage haven't a entry of a called function, then the Decorator lib create new entry in the storage.
+4. The new entry observable has been chained with next functions:
+  * publishReplay(1, ms) // publish one item for `ms` milliseconds
+  * refCount() // check all subscribers
+  * take(1) // take one
+5. Return the entry
+
 ## License
 
 MIT
