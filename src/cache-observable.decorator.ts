@@ -40,7 +40,7 @@ const hashCode = function (s: string): string {
  * @constructor
  */
 
-export default function CacheObservable(ms: number = 1000) {
+export function CacheObservable(ms: number = 1000) {
 
   return function (target: any, methodName: string, descriptor: PropertyDescriptor) {
 

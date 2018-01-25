@@ -1,6 +1,6 @@
 # cache-observable
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]() [![npm](https://img.shields.io/badge/npm-1.0.1-brightgreen.svg)](https://www.npmjs.com/package/cache-observable)
 
 I created this decorator for cashing requests in my angular services.
 
@@ -40,12 +40,12 @@ export class BookService {
 
 1. Call a function with `@CacheObservable()` decorator;
 2. The Decorator lib check, if a storage have the observable entry then return it;
-3. If the storage haven't a entry of a called function, then the Decorator lib create new entry in the storage.
+3. If the storage haven't a entry of a called function, then the Decorator lib create new entry in the storage;
 4. The new entry observable has been chained with next functions:
   * publishReplay(1, ms) // publish one item for `ms` milliseconds
   * refCount() // check all subscribers
   * take(1) // take one
-5. Return the entry
+5. Return the entry.
 
 ## License
 
