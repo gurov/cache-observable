@@ -1,29 +1,29 @@
 {
-    "name": "cache-observable",
-    "version": "1.0.1",
-    "license": "MIT",
-    "description": "The cache decorator for connectable observable",
-    "private": false,
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:gurov/cache-observable.git"
-    },
-    "keywords": [
-        "cache",
-        "observable",
-        "typescript",
-        "typescript2",
-        "file drop"
-    ],
-    "scripts": {
-        "build": "tsc"
-    },
-    "dependencies": {
-        "rxjs": "^5.0.0"
-    },
-    "devDependencies": {
-        "typescript": "2.4.2"
-    }
+  "name": "cache-observable",
+  "version": "1.1.0",
+  "license": "MIT",
+  "description": "The cache decorator for connectable observable",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gurov/cache-observable.git"
+  },
+  "keywords": [
+    "cache",
+    "observable",
+    "typescript",
+    "typescript2",
+    "file drop"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "2.4.2"
+  }
 }
