@@ -18,7 +18,7 @@
     "file drop"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf dist && tsc && npm publish"
   },
   "dependencies": {
     "rxjs": "^5.0.0"
