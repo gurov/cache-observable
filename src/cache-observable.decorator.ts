@@ -1,6 +1,5 @@
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/publishReplay';
-import 'rxjs/add/operator/refCount';
 import 'rxjs/add/operator/take';
 
 /**
